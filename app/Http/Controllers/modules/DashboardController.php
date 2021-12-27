@@ -1,7 +1,7 @@
 <?php
 
 // Controller namespacing.
-namespace App\Http\Controllers\Admin\Modules;
+namespace App\Http\Controllers\Modules;
 use App\Http\Controllers\Controller;
 
 // Facades.

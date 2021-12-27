@@ -179,6 +179,7 @@ return [
          * Custom Service Providers...
          */
         App\Providers\MacroServiceProvider::class,
+        App\Providers\ViewComposerServiceProvider::class,
 
     ],
 

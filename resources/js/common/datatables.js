@@ -1,5 +1,3 @@
-console.log('Init: Datatables');
-
 $.extend( true, $.fn.DataTable.defaults, {
     "pageLength": 10,
 	"language": {

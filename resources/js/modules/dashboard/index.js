@@ -1,4 +1,4 @@
-common.View.create('admin.modules.dashboard.Index', {
+common.View.create('modules.dashboard.Index', {
 
     onDOMLoad()
     {
@@ -6,7 +6,7 @@ common.View.create('admin.modules.dashboard.Index', {
     },
 
     initTest() {
-        console.log('Init: admin.modules.dashboard.Index');
+        console.log('Init: modules.dashboard.index,js is succesfully loaded.');
     }
 
 })
