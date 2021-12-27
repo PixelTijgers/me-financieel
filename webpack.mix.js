@@ -1,3 +1,4 @@
+// Import Mix.
 const mix = require('laravel-mix');
 
 /*
@@ -11,7 +12,4 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .postCss('resources/css/app.css', 'public/css', [
-        //
-    ]);
+mix.js('resources/js/common/application.js', 'public/js/application.js');

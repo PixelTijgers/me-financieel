@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Protect modules with middleware.
+Route::group([
+    'namespace' => 'Modules',
+], function(){
+
+    // Init dashboard route(s).
+    Route::get('/', 'DashboardController@index');
+
 });
